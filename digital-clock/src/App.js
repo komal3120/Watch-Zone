@@ -13,10 +13,12 @@ function App() {
   setInterval(UpdateTime,1000);
   return (
   <>
+  <div className="out"></div>
     <div className="clock">
     <h1>{ctime} </h1>
     {/* <button onClick={UpdateTime}>Get Time</button> */}
     </div>
+    
   </>
   );
 }
